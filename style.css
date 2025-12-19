@@ -1,0 +1,84 @@
+/* Colores: blanco, celeste y gris */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #87CEEB; /* celeste */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #f0f0f0; /* gris claro */
+    min-height: 80vh;
+}
+
+#pregunta-container {
+    margin-bottom: 20px;
+}
+
+#respuestas button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid #87CEEB;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#respuestas button:hover {
+    background-color: #87CEEB;
+    color: #fff;
+}
+
+#siguiente-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #87CEEB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#frase-motivadora {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
